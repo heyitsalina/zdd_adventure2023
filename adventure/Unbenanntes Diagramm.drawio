@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T20:57:13.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="J9liHwHqO28NCKmLBn-H" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T21:27:58.425Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CcGvUSwXNlzT3iavGkBa" version="22.1.1" type="github">
   <diagram name="Seite-1" id="nK8Yi6ZxxenHy8w5aSEf">
-    <mxGraphModel>
+    <mxGraphModel dx="1272" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-1" value="Class &lt;b&gt;CommandHandler&lt;/b&gt;:&lt;br&gt;- manages&amp;nbsp;global commands like &#39;exit&#39; and &#39;inventory&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-2" value="&lt;h1&gt;main_classes.py&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="590" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-4" value="&lt;h1&gt;zdd_adventure.py&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="610" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-5" value="&lt;h1&gt;zdd_rooms.py&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-8" value="Class &lt;b&gt;Item&lt;/b&gt;:&lt;br&gt;- represents individual game items with properties and interactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="750" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="650" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-13" value="Class &lt;b&gt;Room&lt;/b&gt;:&lt;br&gt;-&amp;nbsp;Encapsulates game rooms with descriptions, items, and interactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8VzMCOKKeuK_YOFpvYh-14" value="Class &lt;b&gt;Floor&lt;/b&gt;:&lt;br&gt;-&amp;nbsp;Organizes rooms and their interconnections on a specific level of the game environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
